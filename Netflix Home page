@@ -1,0 +1,181 @@
+3.1. HTML & CSS PROERTIES USED AND DESCRIPTION  
+
+1.Homepage: 
+ <html> 
+    <head> 
+        <title>project</title> 
+        <style> 
+            a{ 
+                float: right; 
+                padding: 20px; 
+            } 
+            body{ 
+            background-color : black; 
+        } 
+            button:hover{ 
+                background-color:red; 
+                border-radius: 5px; 
+ 
+ 
+            } 
+            h2{ 
+                color: white; 
+                text-align: center; 
+                padding-top:250px; 
+            } 
+            h5{ 
+                color: white; 
+                text-align: center; 
+                 
+            } 
+            .butt{ 
+                background-color: #ff0000; 
+            } 
+             
+        </style> 
+    </head> 
+    <body> 
+        <a href="#" ><button>LATEST</button></a> 
+        <a href="1 st page.html" ><button> TV SHOWS </button></a> 
+        <a href="abd.html" ><button>MOVIES</button></a> 
+ 
+ 
+ 7 
+        <a href="#" ><button>HOME</button></a> 
+        <h1 style="color: #ff0000;">NETFLIX</h1> 
+        <h2>UNLIMETED MOVIES,TV SHOWS,AND MORE</h2> 
+        <h5 >watch anywhere.cancel anytime</h5> 
+        <center><button class="butt" onclick="button()">JOIN NOW</button></center> 
+             
+   
+    </body> 
+    <script> 
+        function button() 
+        { 
+            window.location.assign("https://www.netflix.com/"); 
+        } 
+    </script> 
+</html> 
+
+
+2.TV shows:
+
+<html> 
+    <head> 
+        <title>TV shows</title> 
+        <style> 
+               a{ 
+ 
+ 
+                float: right; 
+                padding: 20px; 
+            } 
+            body{ 
+            background-color : black; 
+        } 
+            button:hover{ 
+                background-color:red; 
+            } 
+            b{ 
+                color: white; 
+                text-align: center; 
+                padding-top:250px; 
+            } 
+            h5{ 
+                color: white; 
+                 
+                 
+            } 
+            .movies{ 
+                display: grid; 
+ 
+ 
+ 7 
+                grid-template-columns:1fr 1fr 1fr; 
+                gap: 10px; 
+            } 
+        </style> 
+ 
+    </head> 
+     
+    <body> 
+        <a href="#" ><button>LATEST</button></a> 
+        <a href="1 st page.html" ><button> TV SHOWS </button></a> 
+        <a href="abd.html" ><button>MOVIES</button></a> 
+        <a href="arshad.html" ><button>HOME</button></a> 
+    
+        <h1 style="color: #ff0000;">NETFLIX</h1> 
+        <h1><b>TV SHOWS</b> </h1> 
+        <h5 ><p>These days, the screen has some very big things to offer. From <br> 
+            sitcomes to dramas to travel and talk shows,these are all the best <br> 
+            programs on TV</p> 
+        </h5> 
+        <div class="movies"> 
+ 
+ 
+            <video src="Ice Age (2002) _ Tamil Dubbed _ Movie clip _ Scene (07_07) _ Tamil Movie.mp4" 
+width="300px" height="200px" controls></video> 
+            <video src="Kung Fu panda 3 (2016) - I Am The Dragon Warrior Scene Tamil 10 _ Movieclips Tamil.mp4" 
+width="350px" height="200px" controls></video> 
+            <video src="The Lion King - Tamil _ _ Mufasa Teaches To Simba _ _ 1080p ( HD ).mp4" width="300px" 
+height="200px" controls></video> 
+        </div>  
+ 
+</html> 
+
+3.Movies: 
+
+html> 
+    <head> 
+        <style> 
+            body{ 
+                background-color: black; 
+            } 
+            a{ 
+                float: right; 
+                padding: 20px; 
+            } 
+            button:hover{ 
+                background-color:red; 
+ 
+ 
+ 7 
+                border-radius: 5px; 
+            } 
+            p{ 
+                color: white; 
+                font-size: xx-large; 
+            } 
+    
+            .movies{ 
+                display: grid; 
+                grid-template-columns:1fr 1fr 1fr; 
+                gap: 10px; 
+            } 
+        </style> 
+    </head> 
+    <body> 
+        <a href="#" ><button>LATEST</button></a> 
+        <a href="1 st page.html" ><button> TV SHOWS </button></a> 
+        <a href="abd.html" ><button>MOVIES</button></a> 
+        <a href="arshad.html" ><button>HOME</button></a> 
+        <h1 style="color: #ff0000;">NETFLIX</h1> 
+        <b>Movies</b> 
+ 
+ 
+        <p>Movies move us like nothing else <br> 
+            can,whether they're scary,funny, <br> 
+            dramatic,romantic or anywhere <br> 
+            in-between so many titles,so <br> 
+            much to experience. 
+        </p> 
+        <div class="movies"> 
+            <video src="Ice Age (2002) _ Tamil Dubbed _ Movie clip _ Scene (07_07) _ Tamil Movie.mp4" 
+width="300px" height="200px" controls></video> 
+            <video src="Kung Fu panda 3 (2016) - I Am The Dragon Warrior Scene Tamil 10 _ Movieclips Tamil.mp4" 
+width="350px" height="200px" controls></video> 
+            <video src="The Lion King - Tamil _ _ Mufasa Teaches To Simba _ _ 1080p ( HD ).mp4" width="300px" 
+height="200px" controls></video> 
+        </div>  
+        </body> 
+</html>
