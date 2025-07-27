@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title>assignment</title>
+    <style>
+      body{
+        background-color:black;
+      }
+      div{
+        background-image:url(background.jpg);
+        background-repeat:no-repeat;
+        background-size:cover;
+        height:650px;
+        width:1400px;
+        margin:60px;
+      }
+    
+      
+      h1{
+        text-align:center;
+        font-family:bold;
+        
+      }
+      .but{
+        font-size:xxx-large;
+      }
+      button:hover{
+        background-color:red;
+      }
+      h1{
+        padding-top:200px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+    <center>
+          <headerclass="but">
+      
+      <ahref="#"><button>HOME</button></a>
+      <ahref="#"><button><spanclass="c">ABOUT</span></button></a>
+      <ahref="#"><button>PORTFOLIO</button></a>
+      <ahref="#"><button>SERVICES</button></a>
+      <ahref="#"><button>CONTACT</button></a>
+  
+  
+    </header>
+<h1>CREATIVE AGENCY</h1>
+ </div>
+ </center>
+ </body>
+ </html>
+
+//Use Visual studio to run the code
