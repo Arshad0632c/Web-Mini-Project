@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movies</title>
+
+<style>
+
+body{
+background-color:black;
+font-family:Arial;
+margin:0;
+color:white;
+}
+
+.logo{
+color:red;
+font-size:40px;
+margin-left:20px;
+}
+
+.navbar{
+display:flex;
+justify-content:flex-end;
+padding:20px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:18px;
+}
+
+.navbar a:hover{
+color:red;
+}
+
+.description{
+text-align:center;
+max-width:700px;
+margin:auto;
+padding:10px;
+color:lightgray;
+}
+
+.movies{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+padding:40px;
+}
+
+video{
+width:100%;
+height:200px;
+object-fit:cover;
+border-radius:8px;
+}
+
+video:hover{
+transform:scale(1.05);
+transition:0.3s;
+}
+
+footer{
+text-align:center;
+padding:20px;
+color:gray;
+}
+
+@media(max-width:768px){
+.movies{
+grid-template-columns:1fr;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 class="logo">NETFLIX</h1>
+
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="tvshows.html">TV Shows</a>
+<a href="movies.html">Movies</a>
+<a href="#">Latest</a>
+</div>
+
+<h2 style="text-align:center;">MOVIES</h2>
+
+<p class="description">
+Watch movie previews from our collection. This page demonstrates video integration and responsive layout using HTML and CSS.
+</p>
+
+<div class="movies">
+
+<video controls>
+<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+</video>
+
+<video controls>
+<source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+</video>
+
+<video controls>
+<source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4">
+</video>
+
+</div>
+
+<footer>
+<p>Netflix UI Clone Project | Created by Arshad</p>
+</footer>
+
+</body>
+</html>

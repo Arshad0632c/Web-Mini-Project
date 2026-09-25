@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Netflix Clone</title>
+
+<style>
+
+body{
+background-color:black;
+font-family:Arial;
+margin:0;
+}
+
+.navbar{
+display:flex;
+justify-content:flex-end;
+padding:20px;
+}
+
+.navbar a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.navbar a:hover{
+color:red;
+}
+
+.logo{
+color:red;
+font-size:40px;
+margin-left:20px;
+}
+
+.center{
+text-align:center;
+margin-top:200px;
+color:white;
+}
+
+.join{
+background-color:red;
+color:white;
+padding:10px 20px;
+border:none;
+cursor:pointer;
+}
+
+.join:hover{
+background-color:darkred;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1 class="logo">NETFLIX</h1>
+
+<div class="navbar">
+<a href="index.html">Home</a>
+<a href="tvshows.html">TV Shows</a>
+<a href="movies.html">Movies</a>
+<a href="#">Latest</a>
+</div>
+
+<div class="center">
+
+<h2>UNLIMITED MOVIES, TV SHOWS AND MORE</h2>
+
+<p>Watch anywhere. Cancel anytime.</p>
+
+<button class="join" onclick="join()">JOIN NOW</button>
+
+</div>
+
+<script>
+
+function join(){
+window.location.assign("https://www.netflix.com/");
+}
+
+</script>
+
+</body>
+</html>
